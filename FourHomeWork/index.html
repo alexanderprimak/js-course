@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="users-list">
+        <div class="users-list__header  black">
+            <div class="title">First Name</div>
+            <div class="title">Last Name</div>
+            <div class="title">Age</div>
+        </div>
+        <div class="users-list__content"  id="usersContainer">
+
+        </div>
+        <button id="openAddUserModal" class="add-user-btn">Add user</button>
+    </div>
+    <div class="modalWindow">
+        <div class="title_cros">
+            <h1 class="title-modal">Modal Window</h1>
+            <span class="cros-modal">X</span>
+        </div>
+        <div class="inputs">
+            <div class="input_user_name">
+                <span class="description_input">User Name</span>
+                <input type="text" class="inputUser" id = "inputName">
+            </div>
+            <div class="input_Last_name">
+                <span class="description_input">Last Name</span>
+                <input type="text" class="inputUser" id = "inputLastName">
+            </div>
+            <div class="input_age_user">
+                <span class="description_input">Age</span>
+                <input type="text" class="inputUser" id = "inputAge">
+            </div>
+            <div class="buttons">
+                <button class="btnCansel">Cansel</button>
+                <button class="btnAdd">Add User</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="temno"></div>
+    
+    <script src="data.js"  type = "module"></script>
+    <script src="main.js"  type = "module"></script>
+</body>
+</html>
